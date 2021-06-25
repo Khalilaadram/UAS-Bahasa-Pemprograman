@@ -1,0 +1,46 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(43, 163, 43);
+    background-color : blanchedalmond;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 rgb(86, 122, 50);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5 rem;
+    background-color: rgb(77, 238, 157);
+    color: white;
+}
+
+.correct {
+    background-color: rgb(207, 164, 107);
+}
+
+.incorrect {
+    background-color: rgb(218, 49, 49);
+}
+
+
+/* HUD */
+
+#hud {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
