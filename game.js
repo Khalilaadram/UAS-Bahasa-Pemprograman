@@ -17,6 +17,7 @@ function useApiData(data) {
     
 }
 
+
 let correctButton = document.querySelector("#choice1")
 
 correctButton.addEventListener("click",() => {
