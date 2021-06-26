@@ -20,15 +20,6 @@
     color: white;
 }
 
-.correct {
-    background-color: rgb(207, 164, 107);
-}
-
-.incorrect {
-    background-color: rgb(218, 49, 49);
-}
-
-
 /* HUD */
 
 #hud {
