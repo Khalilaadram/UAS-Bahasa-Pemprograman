@@ -16,7 +16,6 @@ function useApiData(data) {
     document.querySelector("#choice4").innerHTML = data.results[0].incorrect_answers[2]    
 }
 
-
 let correctButton = document.querySelector("#choice1")
 
 correctButton.addEventListener("click",() => {
